@@ -1,0 +1,14 @@
+.footer-container {
+  background: black;
+  color: white;
+  display: flex;
+  justify-content: center;
+  gap: 10px;
+}
+@media (max-width: 768px) {
+  .footer-container {
+    flex-direction: column;
+    gap: 8px;
+    padding: 20px;
+  }
+}
